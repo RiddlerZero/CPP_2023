@@ -17,7 +17,7 @@ string reverse1(string str) {
 
 // Второй способ
 void reverse2(string str) {
-  for (int i = str.length()-1; i >= 0; i--) {
+  for (int i = str.length(); i >= 0; i--) {
     cout << str[i];
   }
   cout << endl;
