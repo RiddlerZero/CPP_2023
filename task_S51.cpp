@@ -9,7 +9,7 @@ using namespace std;
 // Первй способ
 string reverse1(string str) {
     string reversedStr;
-    for (int i = str.length() - 1; i >= 0; i--) {
+    for (int i = str.length(); i >= 0; i--) {
         reversedStr += str[i];
     }
     return reversedStr;
@@ -26,7 +26,7 @@ void reverse2(string str) {
 int main() {
   char str[666];
   cout << "Введите строку: ";
-  cin.getline(str, 666);
+  cin.getline(str,666);
   
   cout << "Получили: ";
   reverse2(str);
