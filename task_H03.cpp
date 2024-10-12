@@ -36,7 +36,7 @@ int same_digits(int from, int to){
 
 int main() {
     int from, to;
-    cout << "Введите два числа через пробел: ";
+    cout << "Введите одно/два числа через пробел: ";
     if (cin >> from){
         if (cin.peek() == '\n'){
             to = from;
@@ -50,7 +50,7 @@ int main() {
         cout << "Количество чисел с одинаковыми цифрами: " << count << endl;
     }
     else{
-        cout << "Ошибка ввода." << endl;
+        cout << "Неправильно ввёл" << endl;
     }
     return 0;
 }
